@@ -1,5 +1,5 @@
-This design was made by Agency and I gots it from Bootstrapa'.
-Je fis le contenu..De rein.
+This design was made by Agency and I gots it from Bootstrap: https://github.com/IronSummitMedia/startbootstrap-agency/
+
 
 
 ## Copyright and License

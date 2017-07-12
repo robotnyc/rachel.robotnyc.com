@@ -1,0 +1,29 @@
+body {
+	border: 10px solid black;
+	display: block;
+	width:50%;
+	vertical-align: middle;
+	border-color:gray;
+	margin:10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	font-family: 'News Cycle', sans-serif;
+	float:center;
+	text-align: left;
+
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+	text-align: left;
+	font-size: 80px;
+	color: #ff32a9;
+}
+h2	{
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+}
+.hrstyle	{
+	border-top: 1px solid black;
+}

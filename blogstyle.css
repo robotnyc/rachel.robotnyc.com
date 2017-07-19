@@ -2,7 +2,7 @@ body {
 	border: 10px solid black;
 	display: block;
 	width:50%;
-	max-width: 700px;
+	max-width: 900px;
 	vertical-align: middle;
 	border-color:gray;
 	margin:10px auto;
@@ -41,4 +41,13 @@ h2	{
 
 .post {
 	margin-bottom: 20px;
+
+	
 }
+/* Dropdown menu background color*/
+
+.navbar-nav > li > .dropdown-menu {background-color: #21bb97;  }
+
+/* Dropdown menu font color*/ 
+
+ .navbar-nav > li > .dropdown-menu a{color: #ffffff;  }

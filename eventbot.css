@@ -1,0 +1,20 @@
+body {
+    background: url('abdusselam-fersatoglu-256646.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header {
+	font-family: 'Amatic SC', cursive;
+	color:white;
+	text-align: center;
+	vertical-align: middle;
+ 
+
+}
+
+.form-group {
+	display: inline-block;
+}
+

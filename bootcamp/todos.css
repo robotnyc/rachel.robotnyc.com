@@ -1,0 +1,14 @@
+li{
+
+	border: 2px solid red;
+}
+
+#special{
+
+	background: purple;
+}
+
+.completed {
+
+	text-decoration: line-through;
+}

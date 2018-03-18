@@ -1,20 +1,38 @@
+
+
 body {
-    background: url('abdusselam-fersatoglu-256646.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+	background-color: #000000;
 }
-.header {
+
+h1 {
 	font-family: 'Amatic SC', cursive;
-	color:white;
-	text-align: center;
-	vertical-align: middle;
- 
+	color: white;
+	font-size:40px;
+	font-weight: 800;
+	text-transform: uppercase;
+	width: 100%;
+	margin-bottom: 5px;
+	margin-left: 1.66%;
+	
+}
+
+h3	{
+	font-size: 1.5em;
+	font-family: 'Saira Semi Condensed', sans-serif;
+	color: white;
 
 }
 
-.form-group {
-	display: inline-block;
+img{
+	float:left;
+
 }
 
+
+
+.containergallery {
+	margin: .5%;
+	padding: 1%;
+	
+
+}

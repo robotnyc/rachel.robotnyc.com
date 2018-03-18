@@ -1,0 +1,99 @@
+body {
+
+    width: 100%;
+  
+    margin: 0 auto; }
+  
+    nav {
+        font-family: 'Carrois Gothic', sans-serif;
+
+        width: 100%;
+      
+        margin: 0; }
+      
+      nav ul {
+      
+        list-style: none;
+      
+        overflow: hidden; }
+      
+  nav ul li {
+  
+    float: left;
+  
+    width: 33%; }
+  
+  nav ul li a {
+  
+    text-align: center;
+  
+    padding: 8px 0;
+  
+    display: block;
+  
+    width: 100%;
+  
+    background: transparent;
+  
+  }
+  
+  nav ul li a,
+  
+  nav ul li a:focus,
+  
+  nav ul li a:visited,
+  
+  nav ul li a:hover,
+  
+  nav ul li a:active {
+  
+    color: #000;
+  
+    text-decoration: none; }
+  
+  nav ul li a:hover,
+  
+  nav ul li a:active {
+  
+    color: #1cb379;
+  
+  }
+ 
+  header {
+    text-align: left;;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../images/anniversaryheader.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .intro-text {
+    padding-top: 250px;
+    padding-bottom: 350px;
+	color: #ffffff;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: 'Caveat', cursive; 
+    font-size: 100px;
+    font-style: italic;
+    line-height: 22px;
+	
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    margin-top:25px;
+    text-transform: uppercase;
+    font-family: 'Caveat', cursive;    
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 50px;
+	
+}

@@ -16,7 +16,7 @@
 title: Robotnyc
 email: rachel@robotnyc.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Robots, travel, vegan food.
+  ROBOTS. VEGAN FOOD. TRAVEL
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://robotnyc.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mzzroboto

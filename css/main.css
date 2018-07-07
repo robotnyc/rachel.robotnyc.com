@@ -9,9 +9,6 @@ body, html {
 }
 
 .bg {
-    /* The image used */
-    background-image: url("robotnyc_watercolor.jpg");
-
     /* Full height */
     height: 50%; 
 

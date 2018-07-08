@@ -6,6 +6,8 @@ body, html {
 }
 
 .bg {
+
+    background-image: url("/images/robotnyc_watercolor.jpg");
     /* Full height */
     height: 50%; 
 

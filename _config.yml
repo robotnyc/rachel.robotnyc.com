@@ -17,8 +17,8 @@ title: Robotnyc
 email: rachel@robotnyc.com
 description: >- # this means to ignore newlines until "baseurl:"
   ROBOTS. VEGAN FOOD. TRAVEL
-baseurl: "" # the subpath of your site, e.g. /blog
-url: http://robotnyc.com # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Jekyll2" # the subpath of your site, e.g. /blog
+url: https://mzzroboto.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mzzroboto
 github_username:  mzzroboto
 paginate: 5
@@ -28,6 +28,10 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+
+paginate: 5
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

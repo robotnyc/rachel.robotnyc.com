@@ -30,7 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-
+paginate_path: "/Jekyll2/page:num/"
 paginate: 5
 show_excerpts: true
 

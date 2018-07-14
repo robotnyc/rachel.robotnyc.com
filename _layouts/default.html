@@ -5,14 +5,8 @@
 
   <body>
 
-    {%- include header.html -%}
-
 <!--HEADER IMAGE-->
-
   <img class ="bg" src="{{ "/images/robotnyc_watercolor.jpg" | absolute_url }}"/>
-
- 
-	
   <!--NAVBAR-->
     <div class="navbar">
       <a href="{{ "/" | absolute_url }}">HOME</a>
@@ -21,9 +15,6 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-
-        
-
           <a href="{{ "/tag/amsterdam.html" | absolute_url }}">AMSTERDAM</a>
           <a href="{{ "/tag/berlin.html" | absolute_url }}">BERLIN</a>
           <a href="{{ "/tag/losangeles.html" | absolute_url }}">LOS ANGELES</a>
@@ -35,7 +26,6 @@
           <a href="{{ "/tag/norway.html" | absolute_url }}">NORWAY</a>
           <a href="{{ "/tag/portland.html" | absolute_url }}">PORTLAND</a>
           <a href="{{ "/tag/sweden.html" | absolute_url }}">SWEDEN</a>
-
         </div>
       </div> 
       <a href="{{ "/tag/berlinlife.html" | absolute_url }}">BERLIN LIFE</a>
@@ -45,9 +35,6 @@
     </div>
   
   <!--BLOG CONTENT-->
-  
-  
-  
   <div class="row">
 
       <div class="main">
@@ -56,9 +43,7 @@
                 {{ content }}
               </div>
             </main>
-          
       </div>
-      
       <div class="side">
         <div class="aboutMe">
           <h2>About Me</h2>
@@ -66,7 +51,6 @@
           <p>Hi! I'm Rachel and I'm a California native living in Berlin. I travel, eat, and explore. Eat like a robot.</p>
         </div>
         <hr>
-  
   <!--SOCIAL BUTTONS-->	
         <div class="techornate-social-buttons">
             <ul>
@@ -76,7 +60,6 @@
         </div>
       </div>
   </div>
-
   {%- include footer.html -%}
 
 </body>

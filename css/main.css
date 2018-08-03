@@ -9,6 +9,7 @@ body, html {
 
     /* Full height */
     max-height: 50%;
+    max-width: 100%;
     height: auto;
     width: 100%;
     margin: 0;
@@ -21,7 +22,7 @@ body, html {
 }
 
 h1 {
-    font-style: italic bold;
+    
     font-size: 2em;
 }
 
@@ -61,6 +62,7 @@ p {
     background-color: #ddd; /* Grey background color */
     color: #ff32a9;
 }
+
 
 
 /* The dropdown container */
@@ -149,7 +151,7 @@ p {
 
   .techornate-social-buttons ul{
       padding-left:0;
-      list-style:none
+      list-style:none;
     }
   .techornate-social-buttons li a{
     text-transform:uppercase;
@@ -163,7 +165,7 @@ p {
     }
 .techornate-social-buttons ul li{
     margin-bottom:10px;
-    width:100%
+    width:100%;
 }
 .techornate-social-buttons li a i{
     width:35px;
@@ -173,19 +175,20 @@ p {
     margin:0;
     font-size:14px;
     line-height:14px;
-    border-left:1px solid #B1B1B1
+    border-left:1px solid #B1B1B1;
 }
 .techornate-social-buttons li a.social-btn-facebook{
-    background:#3b5998
+    background:#3b5998;
 }
 .techornate-social-buttons li a.social-btn-twitter{
-    background:#1da1f2
+    background:#1da1f2;
 }
 .techornate-social-buttons li a.social-btn-youtube{
-    background:#cd201f}
+    background:#cd201f;
+}
 
 .techornate-social-buttons li a.social-btn-instagram{
-      background:#405de6
+      background:#405de6;
     }
 
  
@@ -209,5 +212,66 @@ p {
 }
 
 /* Add a grey background color on mouse-over */
-.pagination a:hover:not(.active) {background-color: #ddd;}
+.pagination a:hover:not(.active) {background-color: #ddd;
+}
+
+
+
+  /*nav bar small screen */
+  @media (max-width:800px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) + .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked + .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+
+    .side {
+        display: none;
+    }
+    
+    /* Main column */
+    .main { 
+        flex: 100%;
+        
+    }
+
+  }
 

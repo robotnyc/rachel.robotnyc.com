@@ -1,16 +1,12 @@
-
 body, html {
     height: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    overflow: hidden;
 }
-
 .container {
     display: flex;
     flex-direction: column;
 }
-
 .bg {
 
     /* Full height */
@@ -26,7 +22,6 @@ body, html {
     background-size: cover;
     text-align: center;
 }
-
 h1 {
     
     font-size: 2em;
@@ -225,11 +220,11 @@ p {
 /* Add a grey background color on mouse-over */
 .pagination a:hover:not(.active) {background-color: #ddd;
 }
-
-
-
   /*nav bar small screen */
   @media (max-width:800px) {
+    html {
+        overflow-x: hidden;
+    }
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
@@ -266,7 +261,7 @@ p {
       display: block;
       width: 100%;
     }
-    .nav > .nav-links > button {
+    .nav > .nav-links > .dropbtn {
         display: block;
         width: 100%;
       }
@@ -292,12 +287,13 @@ p {
         max-height: 200px;
     }
 
+
   }
 
 /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     .navbar a {display: none;}
-    .navbar button {display: none;}
+    .navbar .dropbtn {display: none;}
     .navbar a.icon {
       float: right;
       display: block;
@@ -307,12 +303,12 @@ p {
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
     .navbar.responsive {position: relative;}
-    .navbar.responsive a.icon, button{
+    .navbar.responsive a.icon {
       position: absolute;
       right: 0;
       top: 0;
     }
-    .navbar.responsive a, button {
+    .navbar.responsive a, .dropbtn {
       float: none;
       display: block;
       text-align: left;

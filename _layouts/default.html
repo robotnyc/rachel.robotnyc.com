@@ -5,11 +5,12 @@
 
 <body>
 
+  <div class="container">
   <!--HEADER IMAGE-->
   <img class ="bg" src="{{ "/images/robotnyc_watercolor.jpg" | absolute_url }}" alt="watercolor">
   <!--NAVBAR-->
-    <div class="navbar">
-      <a href="{{ "/" | absolute_url }}">HOME</a>
+    <div class="navbar" id="navbar">
+      <a href="{{ "/" | absolute_url }}" class="active">HOME</a>
       <div class="dropdown">
         <button class="dropbtn">TRAVEL 
           <i class="fa fa-caret-down"></i>
@@ -32,6 +33,9 @@
       <a href="{{ "/tag/foodreviews.html" | absolute_url }}">FOOD REVIEWS</a>
       <a href="{{ "/tag/walkingtours.html" | absolute_url }}">WALKING TOURS</a>
       <a href="{{ "/tag/recipes.html" | absolute_url }}">RECIPES</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
   
   <!--BLOG CONTENT-->
@@ -65,5 +69,6 @@
     {%- include footer.html -%}
 
   </div>
+</div>
 </body>
 </html>

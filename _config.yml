@@ -18,8 +18,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   ROBOTS. VEGAN FOOD. TRAVEL
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://mzzroboto.github.io # the base hostname & protocol for your site, e.g. http://example.com
-paginate: 5
 google_analytics: UA-49284677-1
+paginate: 5
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
@@ -27,9 +28,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
-
-paginate: 5
-show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

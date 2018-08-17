@@ -17,7 +17,7 @@ title: Robotnyc
 description: >- # this means to ignore newlines until "baseurl:"
   ROBOTS. VEGAN FOOD. TRAVEL
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://mzzroboto.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://www.robotnyc.com # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-49284677-1
 paginate: 5
 show_excerpts: true

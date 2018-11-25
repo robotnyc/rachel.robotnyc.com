@@ -31,12 +31,12 @@ Ingredients:
 
 * Puff pastry (x2 packages)
 * 1/2 recipe unflavored* seitan thinly sliced (I used 2 loaves of Viva Vegan's white setian)
-* 1/4 recipe [Stuffing] (https://www.karissasvegankitchen.com/easy-vegan-stuffing/)
+* 1/4 recipe [Stuffing](https://www.karissasvegankitchen.com/easy-vegan-stuffing/)
 * 2 cups kale shredded into 2" pieces
 * 1 cup portobello (or button) mushrooms thinly sliced
 * 1 yam thinly sliced
 * Salt and pepper to taste
-* [Mushroom Gravy] (https://minimalistbaker.com/vegan-biscuits-and-gravy/)
+* [Mushroom Gravy](https://minimalistbaker.com/vegan-biscuits-and-gravy/)
 
 Instructions:
 

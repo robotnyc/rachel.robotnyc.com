@@ -23,7 +23,7 @@ Time: A long time to make all the recipes! But 30 min. to cook.
 
 ![Wellington]({{ '/images/IMG_6098.jpg' | relative_url }})
 
-![Wellington]({{ '/images/IMG_6199.jpg' | relative_url }})
+![Wellington]({{ '/images/IMG_6099.jpg' | relative_url }})
 
 ![Wellington]({{ '/images/IMG_6102.jpg' | relative_url }})
 

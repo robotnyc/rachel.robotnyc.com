@@ -20,7 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://www.robotnyc.com # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-49284677-1
 paginate: 5
-show_excerpts: true
+show_excerpts: false
 
 # Build settings
 markdown: kramdown

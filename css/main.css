@@ -52,7 +52,7 @@ p {
 }
 
 /* Style the navigation bar links */
-.navbar a {
+.navbar a .dropdown {
     float: left; /* Make sure that the links stay side-by-side */
     display: block; /* Change the display to block, for responsive reasons (see below) */
     color: black; 

@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    width: 100%;
+    max-width: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -53,7 +53,7 @@ p {
 }
 
 /* Style the navigation bar links */
-.navbar a .dropdown {
+.navbar a  {
     float: left; /* Make sure that the links stay side-by-side */
     display: block; /* Change the display to block, for responsive reasons (see below) */
     color: black; 
@@ -300,7 +300,9 @@ p {
       display: block;
     }
   }
-
+/*when screen is large don't show bars*/
+  @media screen and (min-width: 1224px) {
+    .fa-bar {display: none;}
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {

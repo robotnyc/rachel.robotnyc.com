@@ -288,10 +288,6 @@ img {
     max-height: 200px;
     
 }
-.blogimg {
-    text-align: center;
-}
-
   }
 
 /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
@@ -305,7 +301,7 @@ img {
   }
 /*when screen is large don't show bars*/
   @media screen and (min-width: 1224px) {
-    .fa-bar {display: none;}
+    #mobilebar {display: none;}
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {

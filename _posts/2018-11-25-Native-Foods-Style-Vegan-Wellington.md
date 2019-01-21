@@ -15,7 +15,8 @@ There is no recipe online for anything like this, so I did my best attempt to re
 Serves: 6
 Time: A long time to make all the recipes! But 30 min. to cook.
 
-![Wellington]({{ '/images/IMG_6094.jpg' | relative_url }}) 
+<div  style="text-align:center" markdown="1">
+![Wellington]({{ '/images/IMG_6094.jpg' | relative_url }})
 
 ![Wellington]({{ '/images/IMG_6096.jpg' | relative_url }})
 
@@ -26,7 +27,7 @@ Time: A long time to make all the recipes! But 30 min. to cook.
 ![Wellington]({{ '/images/IMG_6099.jpg' | relative_url }})
 
 ![Wellington]({{ '/images/IMG_6102.jpg' | relative_url }})
-
+</div>
 Ingredients:
 
 * Puff pastry (x2 packages)

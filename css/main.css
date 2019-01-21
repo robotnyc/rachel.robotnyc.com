@@ -298,10 +298,11 @@ img {
       float: right;
       display: block;
     }
+    .mobilebar {display: none;}
   }
-/*when screen is large don't show bars*/
-  @media screen and (min-width: 1224px) {
-    #mobilebar {display: none;}
+/*when screen is large don't show Travel link*/
+  @media (min-width: 1025px) {
+    .mobileTravel {display: none;}
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */

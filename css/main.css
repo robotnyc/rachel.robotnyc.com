@@ -290,16 +290,6 @@ img {
 }
   }
 
-/* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-    .navbar a {display: none;}
-    .navbar .dropbtn {display: none;}
-    .navbar a.icon {
-      float: right;
-      display: block;
-    }
-    .mobilebar {display: none;}
-  }
 /*when screen is large don't show Travel link*/
   @media (min-width: 1025px) {
     .mobileTravel {display: none;}
@@ -312,7 +302,19 @@ img {
       position: absolute;
       right: 0;
       top: 0;
+        
     }
+      #mobilebar {
+        display: none
+    }
+    .navbar a {display: none;}
+    .navbar .dropbtn {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+    .mobilebar {display: none;}
+      
     .navbar.responsive a, .dropbtn {
       float: none;
       display: block;

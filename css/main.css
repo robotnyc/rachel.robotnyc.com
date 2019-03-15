@@ -294,9 +294,15 @@ img {
   @media (min-width: 1025px) {
     .mobileTravel {display: none;}
   }
+/
+@media screen and (min-width: 800px) {
+#mobilebar {
+        display: none
+    }
+}
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .navbar.responsive {position: relative;}
     .navbar.responsive a.icon {
       position: absolute;
@@ -304,9 +310,7 @@ img {
       top: 0;
         
     }
-      #mobilebar {
-        display: none
-    }
+      
     .navbar a {display: none;}
     .navbar .dropbtn {display: none;}
     .navbar a.icon {

@@ -294,7 +294,7 @@ img {
   @media (min-width: 1025px) {
     .mobileTravel {display: none;}
   }
-/
+
 @media screen and (min-width: 800px) {
 #mobilebar {
         display: none

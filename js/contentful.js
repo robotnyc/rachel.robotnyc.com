@@ -4,52 +4,49 @@ var client = contentful.createClient({
   accessToken: 'nQ2cSFY0WimXrAPCoWTcNve_QsQ8HyksphVSRPMcFj4'
 });
 
-client.getEntries()
-.then(function (entries) {
-  // log the title for all the entries that have it
-  entries.items.forEach(function (entry) {
-    if(entry.fields.title) {
-      console.log(entry.fields.title)
-    }
-  })
-});
 
-// create variable that is a handle to the id="images" element
-var imagesDiv = document.getElementById('image');
+//IMAGES//
+//Function to take image element by ID and set the src to contentful asset ID
 
-client.getAssets()
-// .then((response) => console.log(response.items))
-.then(function (response) {
-  response.items.forEach(function (asset) {
+function imageSetSourceFromAsset(htmlID, assetID) {
+  // create variable that is a handle to the html ID element
+  var imageElm = document.getElementById(htmlID);
+
+  //Get header image from contentful
+  client.getAsset(assetID)
+  .then(function (asset) {
     if (asset.fields.file.url) {
       console.log('https:' + asset.fields.file.url)
-      var imageFile = document.createElement("img"); // <img>
-      imageFile.src = 'https:' + asset.fields.file.url; // <img src=''>
-      // imagesDiv.appendChild(imageFile); // <div id="images"
+      imageElm.src = 'https:' + asset.fields.file.url; // <img src=''>
     }
-  });
-})
-.catch(console.error)
+  })
+  .catch(console.error)
 
-//Get single image
+}
+//Set image header
+imageSetSourceFromAsset('imageHeader','5eDsPCyVtqJc1uDdLdN1Xp');
 
-client.getAsset('7orLdboQQowIUs22KAW4U')
-.then(function (asset) {
-  if (asset.fields.file.url) {
-    console.log('https:' + asset.fields.file.url)
-    var imageFile = document.createElement("img"); // <img>
-    imageFile.src = 'https:' + asset.fields.file.url; // <img src=''>
-    imagesDiv.appendChild(imageFile); // <div id="images"
+//Set image footer
+imageSetSourceFromAsset('imageFooter','5eDsPCyVtqJc1uDdLdN1Xp');
+
+
+
+
+
+//Get Software Implementation entry
+client.getEntry('1xT2SUdopy1JCedFJ563S1')
+.then(function (entry) {
+  if (entry.fields.body) {
+    console.log(entry);
+    
   }
 })
 .catch(console.error)
 
+
+
+
+
 // TODO
 //resize images
 //get content from blog, add my content, add picture
-
-
-
-client.getEntry('73qFxyg0eEJemMBjDdR4je')
-.then((entry) => console.log(entry))
-.catch(console.error)

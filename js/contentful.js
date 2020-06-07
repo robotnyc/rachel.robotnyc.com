@@ -39,6 +39,7 @@ client.getEntry('1xT2SUdopy1JCedFJ563S1')
   if (entry.fields.body) {
     console.log(entry);
     
+    
   }
 })
 .catch(console.error)

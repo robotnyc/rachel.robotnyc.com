@@ -38,7 +38,8 @@ client.getEntry('1xT2SUdopy1JCedFJ563S1')
 .then(function (entry) {
   if (entry.fields.body) {
     console.log(entry);
-    
+    document.getElementById("aboutMeLeft").insertAdjacentHTML('afterbegin',entry.fields.body);
+    document.getElementById("aboutMeRight").insertAdjacentHTML('afterbegin',entry.fields.body);
     
   }
 })

@@ -1,4 +1,8 @@
 /* Base */
+#imageHeader #imageFooter {
+  padding-top: 0px;
+}
+
 html {
   overflow-x: hidden; }
 
@@ -469,7 +473,7 @@ body:after {
       cursor: pointer;
       border-radius: 50%; }
       .site-mobile-menu .site-nav-wrap .arrow-collapse:hover {
-        background: #f8f9fa; }
+        background: #ffffff; }
       .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
         font-size: 12px;
         z-index: 20;

@@ -24,10 +24,10 @@ function imageSetSourceFromAsset(htmlID, assetID) {
 
 }
 //Set image header
-imageSetSourceFromAsset('imageHeader','5eDsPCyVtqJc1uDdLdN1Xp');
+imageSetSourceFromAsset('imageHeader','3UUXMit9S3rNHArXhVd4kl');
 
 //Set image footer
-imageSetSourceFromAsset('imageFooter','5eDsPCyVtqJc1uDdLdN1Xp');
+imageSetSourceFromAsset('imageFooter','23gSJXQevR0HyatcMqbE2W');
 
 
 
@@ -38,6 +38,9 @@ client.getEntry('1xT2SUdopy1JCedFJ563S1')
 .then(function (entry) {
   if (entry.fields.body) {
     console.log(entry);
+    //Get Services
+    document.getElementById("technicalPM").insertAdjacentHTML('afterbegin',entry.fields.body);
+    //Get About Me info
     document.getElementById("aboutMeLeft").insertAdjacentHTML('afterbegin',entry.fields.body);
     document.getElementById("aboutMeRight").insertAdjacentHTML('afterbegin',entry.fields.body);
     

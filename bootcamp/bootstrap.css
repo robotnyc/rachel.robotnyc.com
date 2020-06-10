@@ -4985,7 +4985,7 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
+    padding-top: 0px;
     padding-bottom: 48px;
   }
   .container .jumbotron,
@@ -5000,7 +5000,7 @@ a.badge:focus {
 }
 .thumbnail {
   display: block;
-  padding: 4px;
+  padding: 0px;
   margin-bottom: 20px;
   line-height: 1.42857143;
   background-color: #fff;

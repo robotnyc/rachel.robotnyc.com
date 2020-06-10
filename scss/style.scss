@@ -1,5 +1,10 @@
 $font-family-2: 'Arbutus Slab', serif;
 
+#bootstap-overrides #imageHeader #imageFooter {
+    padding-top:0rem;
+}
+
+
 @import "bootstrap/functions";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";

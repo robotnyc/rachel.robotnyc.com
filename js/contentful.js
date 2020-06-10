@@ -92,7 +92,3 @@ client.getEntry('1xT2SUdopy1JCedFJ563S1')
 
 
 
-
-// TODO
-//resize images
-//get content from blog, add my content, add picture

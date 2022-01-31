@@ -76,13 +76,21 @@ client.getEntry('73qFxyg0eEJemMBjDdR4je')
 })
 .catch(console.error)
 
-//Get About Me
+//Get About Me Left
 client.getEntry('1xT2SUdopy1JCedFJ563S1')
 .then(function (entry) {
   if (entry.fields.body) {
     console.log(entry);
 
-    document.getElementById("aboutMeLeft").insertAdjacentHTML('afterbegin',entry.fields.body);
+    document.getElementById("aboutMeLeft").insertAdjacentHTML('afterbegin',entry.fields.body);    
+  }
+})
+//Get About Me Right
+client.getEntry('5AJGB8Ae8LCARFpHNuOVBl')
+.then(function (entry) {
+  if (entry.fields.body) {
+    console.log(entry);
+
     document.getElementById("aboutMeRight").insertAdjacentHTML('afterbegin',entry.fields.body);
     
   }
